@@ -1,0 +1,419 @@
+[T 16:50:33 22684] Initializing tracer.
+[T 16:50:33 22684] Initialising tags...
+[T 16:50:34 22684] CodeQL CLI version 2.13.1
+[T 16:50:34 22684] Initializing tracer.
+[T 16:50:34 22684] Initialising tags...
+[T 16:50:34 22684] Allocated ID FF2873CF0000589C_0000000000000001 (parent )
+[T 16:50:34 22684] ==== Candidate to intercept: C:\codeql\tools\win64\runner.exe (6076) ====
+[T 16:50:34 22684] Executing the following tracer actions:
+[T 16:50:34 22684] Tracer actions:
+[T 16:50:34 22684] pre_invocations(0)
+[T 16:50:34 22684] post_invocations(0)
+[T 16:50:34 22684] trace_languages(1): [csharp]
+[T 16:50:34 6076] Initializing tracer.
+[T 16:50:34 6076] Initialising tags...
+[T 16:50:34 6076] ID set to FF2873CF0000589C_0000000000000001 (parent root)
+[T 16:50:34 6076] Allocated ID 27178A44000017BC_0000000000000001 (parent FF2873CF0000589C_0000000000000001)
+[T 16:50:34 6076] ==== Candidate to intercept: C:\Windows\System32\cmd.exe (22744) ====
+[T 16:50:34 6076] Executing the following tracer actions:
+[T 16:50:34 6076] Tracer actions:
+[T 16:50:34 6076] pre_invocations(0)
+[T 16:50:34 6076] post_invocations(0)
+[T 16:50:34 6076] trace_languages(1): [csharp]
+[T 16:50:34 22744] Initializing tracer.
+[T 16:50:34 22744] Initialising tags...
+[T 16:50:34 22744] ID set to 27178A44000017BC_0000000000000001 (parent FF2873CF0000589C_0000000000000001)
+[T 16:50:34 22744] Allocated ID D00AC970000058D8_0000000000000001 (parent 27178A44000017BC_0000000000000001)
+[T 16:50:34 22744] ==== Candidate to intercept: C:\codeql\csharp\tools\win64\Semmle.Autobuild.CSharp.exe (12076) ====
+[T 16:50:34 22744] Executing the following tracer actions:
+[T 16:50:34 22744] Tracer actions:
+[T 16:50:34 22744] pre_invocations(0)
+[T 16:50:34 22744] post_invocations(0)
+[T 16:50:34 22744] trace_languages(1): [csharp]
+[T 16:50:34 12076] Initializing tracer.
+[T 16:50:34 12076] Initialising tags...
+[T 16:50:34 12076] ID set to D00AC970000058D8_0000000000000001 (parent 27178A44000017BC_0000000000000001)
+[T 16:50:35 12076] Allocated ID 4F7797C100002F2C_0000000000000001 (parent D00AC970000058D8_0000000000000001)
+[T 16:50:35 12076] ==== Candidate to intercept: C:\Windows\System32\cmd.exe (4836) ====
+[T 16:50:35 12076] Executing the following tracer actions:
+[T 16:50:35 12076] Tracer actions:
+[T 16:50:35 12076] pre_invocations(0)
+[T 16:50:35 12076] post_invocations(0)
+[T 16:50:35 12076] trace_languages(1): [csharp]
+[T 16:50:35 4836] Initializing tracer.
+[T 16:50:35 4836] Initialising tags...
+[T 16:50:35 4836] ID set to 4F7797C100002F2C_0000000000000001 (parent D00AC970000058D8_0000000000000001)
+[T 16:50:35 4836] Allocated ID 9E27B86F000012E4_0000000000000001 (parent 4F7797C100002F2C_0000000000000001)
+[T 16:50:35 4836] ==== Candidate to intercept: C:\Program Files\dotnet\dotnet.exe (15144) ====
+[T 16:50:35 4836] Executing the following tracer actions:
+[T 16:50:35 4836] Tracer actions:
+[T 16:50:35 4836] pre_invocations(0)
+[T 16:50:35 4836] post_invocations(0)
+[T 16:50:35 4836] trace_languages(1): [csharp]
+[T 16:50:35 15144] Initializing tracer.
+[T 16:50:35 15144] Initialising tags...
+[T 16:50:35 15144] ID set to 9E27B86F000012E4_0000000000000001 (parent 4F7797C100002F2C_0000000000000001)
+[T 16:50:36 12076] Allocated ID CF3AD38F00002F2C_0000000000000001 (parent D00AC970000058D8_0000000000000001)
+[T 16:50:36 12076] ==== Candidate to intercept: C:\Windows\System32\cmd.exe (13716) ====
+[T 16:50:36 12076] Executing the following tracer actions:
+[T 16:50:36 12076] Tracer actions:
+[T 16:50:36 12076] pre_invocations(0)
+[T 16:50:36 12076] post_invocations(0)
+[T 16:50:36 12076] trace_languages(1): [csharp]
+[T 16:50:36 13716] Initializing tracer.
+[T 16:50:36 13716] Initialising tags...
+[T 16:50:36 13716] ID set to CF3AD38F00002F2C_0000000000000001 (parent D00AC970000058D8_0000000000000001)
+[T 16:50:36 13716] Allocated ID D03FC20800003594_0000000000000001 (parent CF3AD38F00002F2C_0000000000000001)
+[T 16:50:36 13716] ==== Candidate to intercept: C:\Program Files\dotnet\dotnet.exe (12596) ====
+[T 16:50:36 13716] Lua: Dotnet subcommand detected: clean
+[T 16:50:36 13716] Lua: Dotnet subcommand detected: C:\ptk-install\codeql-one\dotnet-demo-one\mysamplemvc.sln
+[T 16:50:36 13716] Executing the following tracer actions:
+[T 16:50:36 13716] Tracer actions:
+[T 16:50:36 13716] pre_invocations(0)
+[T 16:50:36 13716] post_invocations(0)
+[T 16:50:36 13716] trace_languages(1): [csharp]
+[T 16:50:36 12596] Initializing tracer.
+[T 16:50:36 12596] Initialising tags...
+[T 16:50:36 12596] ID set to D03FC20800003594_0000000000000001 (parent CF3AD38F00002F2C_0000000000000001)
+[T 16:50:38 12076] Allocated ID 2A10879600002F2C_0000000000000001 (parent D00AC970000058D8_0000000000000001)
+[T 16:50:38 12076] ==== Candidate to intercept: C:\Windows\System32\cmd.exe (21212) ====
+[T 16:50:38 12076] Executing the following tracer actions:
+[T 16:50:38 12076] Tracer actions:
+[T 16:50:38 12076] pre_invocations(0)
+[T 16:50:38 12076] post_invocations(0)
+[T 16:50:38 12076] trace_languages(1): [csharp]
+[T 16:50:38 21212] Initializing tracer.
+[T 16:50:38 21212] Initialising tags...
+[T 16:50:38 21212] ID set to 2A10879600002F2C_0000000000000001 (parent D00AC970000058D8_0000000000000001)
+[T 16:50:38 21212] Allocated ID F62D20DA000052DC_0000000000000001 (parent 2A10879600002F2C_0000000000000001)
+[T 16:50:38 21212] ==== Candidate to intercept: C:\Program Files\dotnet\dotnet.exe (22328) ====
+[T 16:50:38 21212] Lua: Dotnet subcommand detected: restore
+[T 16:50:38 21212] Lua: Dotnet subcommand detected: C:\ptk-install\codeql-one\dotnet-demo-one\mysamplemvc.sln
+[T 16:50:38 21212] Executing the following tracer actions:
+[T 16:50:38 21212] Tracer actions:
+[T 16:50:38 21212] pre_invocations(0)
+[T 16:50:38 21212] post_invocations(0)
+[T 16:50:38 21212] trace_languages(1): [csharp]
+[T 16:50:38 22328] Initializing tracer.
+[T 16:50:38 22328] Initialising tags...
+[T 16:50:38 22328] ID set to F62D20DA000052DC_0000000000000001 (parent 2A10879600002F2C_0000000000000001)
+[T 16:50:39 12076] Allocated ID 71AA573C00002F2C_0000000000000001 (parent D00AC970000058D8_0000000000000001)
+[T 16:50:39 12076] ==== Candidate to intercept: C:\Windows\System32\cmd.exe (22980) ====
+[T 16:50:39 12076] Executing the following tracer actions:
+[T 16:50:39 12076] Tracer actions:
+[T 16:50:39 12076] pre_invocations(0)
+[T 16:50:39 12076] post_invocations(0)
+[T 16:50:39 12076] trace_languages(1): [csharp]
+[T 16:50:39 22980] Initializing tracer.
+[T 16:50:39 22980] Initialising tags...
+[T 16:50:39 22980] ID set to 71AA573C00002F2C_0000000000000001 (parent D00AC970000058D8_0000000000000001)
+[T 16:50:40 22980] Allocated ID A94E99A3000059C4_0000000000000001 (parent 71AA573C00002F2C_0000000000000001)
+[T 16:50:40 22980] ==== Candidate to intercept: C:\Program Files\dotnet\dotnet.exe (23152) ====
+[T 16:50:40 22980] Lua: Dotnet subcommand detected: build
+[T 16:50:40 22980] Lua: === Intercepted call to c:\program files\dotnet\dotnet.exe ===
+[T 16:50:40 22980] Executing the following tracer actions:
+[T 16:50:40 22980] Tracer actions:
+[T 16:50:40 22980] pre_invocations(0)
+[T 16:50:40 22980] replacing compiler with:
+[T 16:50:40 22980] invocation: c:\program files\dotnet\dotnet.exe, args: build --no-incremental C:\ptk-install\codeql-one\dotnet-demo-one\mysamplemvc.sln -p:UseSharedCompilation=false
+[T 16:50:40 22980] post_invocations(0)
+[T 16:50:40 22980] trace_languages(1): [csharp]
+[T 16:50:40 22416] Initializing tracer.
+[T 16:50:40 22416] Initialising tags...
+[T 16:50:40 22416] ID set to A94E99A3000059C4_0000000000000001 (parent 71AA573C00002F2C_0000000000000001)
+[T 16:50:42 22416] Allocated ID ADEEA0F400005790_0000000000000001 (parent A94E99A3000059C4_0000000000000001)
+[T 16:50:42 22416] ==== Candidate to intercept: C:\Program Files\dotnet\dotnet.exe (2884) ====
+[T 16:50:42 22416] Lua: Dotnet subcommand detected: exec
+[T 16:50:42 22416] Lua: Dotnet subcommand detected: c:\program files\dotnet\sdk\7.0.100\Roslyn\bincore\csc.dll
+[T 16:50:42 22416] Lua: Dotnet subcommand detected: @C:\Users\pkumara2\AppData\Local\Temp\MSBuildTempPKUMARA2\tmp5bf667bd31874790b2abcca8953ee815.rsp
+[T 16:50:42 22416] Executing the following tracer actions:
+[T 16:50:42 22416] Tracer actions:
+[T 16:50:42 22416] pre_invocations(1)
+[T 16:50:42 22416] invocation: C:\codeql\csharp\tools\win64\Semmle.Extraction.CSharp.Driver.exe, args: --compiler "c:\program files\dotnet\sdk\7.0.100\Roslyn\bincore\csc.dll" "/noconfig" "@C:\Users\pkumara2\AppData\Local\Temp\MSBuildTempPKUMARA2\tmp5bf667bd31874790b2abcca8953ee815.rsp"
+[T 16:50:42 22416] post_invocations(0)
+[T 16:50:42 22416] trace_languages(1): [csharp]
+[T 16:50:42 9132] Initializing tracer.
+[T 16:50:42 9132] Initialising tags...
+[T 16:50:42 9132] ID set to ADEEA0F400005790_0000000000000001 (parent A94E99A3000059C4_0000000000000001)
+[T 16:50:56 22416] Allocated ID 6619B76400005790_0000000000000001 (parent A94E99A3000059C4_0000000000000001)
+[T 16:50:56 22416] ==== Candidate to intercept: C:\Program Files\dotnet\dotnet.exe (21568) ====
+[T 16:50:56 22416] Lua: Dotnet subcommand detected: nuget
+[T 16:50:56 22416] Lua: Dotnet subcommand detected: verify
+[T 16:50:56 22416] Lua: Dotnet subcommand detected: C:\Users\pkumara2\AppData\Local\Temp\61b52a22-97d2-410c-b229-dfb5ab604dd6\microsoft.net.workload.mono.toolchain.net6.manifest-7.0.100.msi.x64\7.0.5\microsoft.net.workload.mono.toolchain.net6.manifest-7.0.100.msi.x64.7.0.5.nupkg
+[T 16:50:56 22416] Executing the following tracer actions:
+[T 16:50:56 22416] Tracer actions:
+[T 16:50:56 22416] pre_invocations(0)
+[T 16:50:56 22416] post_invocations(0)
+[T 16:50:56 22416] trace_languages(1): [csharp]
+[T 16:50:56 22416] Allocated ID 65EF7F6800005790_0000000000000001 (parent A94E99A3000059C4_0000000000000001)
+[T 16:50:56 22416] ==== Candidate to intercept: C:\Program Files\dotnet\dotnet.exe (23516) ====
+[T 16:50:56 22416] Lua: Dotnet subcommand detected: nuget
+[T 16:50:56 22416] Lua: Dotnet subcommand detected: verify
+[T 16:50:56 22416] Lua: Dotnet subcommand detected: C:\Users\pkumara2\AppData\Local\Temp\61b52a22-97d2-410c-b229-dfb5ab604dd6\microsoft.net.workload.mono.toolchain.net7.manifest-7.0.100.msi.x64\7.0.5\microsoft.net.workload.mono.toolchain.net7.manifest-7.0.100.msi.x64.7.0.5.nupkg
+[T 16:50:56 22416] Executing the following tracer actions:
+[T 16:50:56 22416] Tracer actions:
+[T 16:50:56 22416] pre_invocations(0)
+[T 16:50:56 22416] post_invocations(0)
+[T 16:50:56 22416] trace_languages(1): [csharp]
+[T 16:50:56 22416] Allocated ID 84AC0A8700005790_0000000000000001 (parent A94E99A3000059C4_0000000000000001)
+[T 16:50:57 22416] ==== Candidate to intercept: C:\Program Files\dotnet\dotnet.exe (19776) ====
+[T 16:50:57 22416] Lua: Dotnet subcommand detected: nuget
+[T 16:50:57 22416] Lua: Dotnet subcommand detected: verify
+[T 16:50:57 22416] Lua: Dotnet subcommand detected: C:\Users\pkumara2\AppData\Local\Temp\61b52a22-97d2-410c-b229-dfb5ab604dd6\microsoft.net.sdk.android.manifest-7.0.100.msi.x64\33.0.46\microsoft.net.sdk.android.manifest-7.0.100.msi.x64.33.0.46.nupkg
+[T 16:50:57 22416] Executing the following tracer actions:
+[T 16:50:57 22416] Tracer actions:
+[T 16:50:57 22416] pre_invocations(0)
+[T 16:50:57 22416] post_invocations(0)
+[T 16:50:57 22416] trace_languages(1): [csharp]
+[T 16:50:57 22416] Allocated ID 2727B09F00005790_0000000000000001 (parent A94E99A3000059C4_0000000000000001)
+[T 16:50:57 22416] ==== Candidate to intercept: C:\Program Files\dotnet\dotnet.exe (21952) ====
+[T 16:50:57 22416] Lua: Dotnet subcommand detected: nuget
+[T 16:50:57 22416] Lua: Dotnet subcommand detected: verify
+[T 16:50:57 22416] Lua: Dotnet subcommand detected: C:\Users\pkumara2\AppData\Local\Temp\61b52a22-97d2-410c-b229-dfb5ab604dd6\microsoft.net.sdk.macos.manifest-7.0.100.msi.x64\13.3.7054\microsoft.net.sdk.macos.manifest-7.0.100.msi.x64.13.3.7054.nupkg
+[T 16:50:57 22416] Executing the following tracer actions:
+[T 16:50:57 22416] Tracer actions:
+[T 16:50:57 22416] pre_invocations(0)
+[T 16:50:57 22416] post_invocations(0)
+[T 16:50:57 22416] trace_languages(1): [csharp]
+[T 16:50:57 22416] Allocated ID F581471E00005790_0000000000000001 (parent A94E99A3000059C4_0000000000000001)
+[T 16:50:57 22416] ==== Candidate to intercept: C:\Program Files\dotnet\dotnet.exe (20412) ====
+[T 16:50:57 22416] Lua: Dotnet subcommand detected: nuget
+[T 16:50:57 22416] Lua: Dotnet subcommand detected: verify
+[T 16:50:57 22416] Lua: Dotnet subcommand detected: C:\Users\pkumara2\AppData\Local\Temp\61b52a22-97d2-410c-b229-dfb5ab604dd6\microsoft.net.sdk.maui.manifest-7.0.100.msi.x64\7.0.86\microsoft.net.sdk.maui.manifest-7.0.100.msi.x64.7.0.86.nupkg
+[T 16:50:57 22416] Executing the following tracer actions:
+[T 16:50:57 22416] Tracer actions:
+[T 16:50:57 22416] pre_invocations(0)
+[T 16:50:57 22416] post_invocations(0)
+[T 16:50:57 22416] trace_languages(1): [csharp]
+[T 16:50:57 22416] Allocated ID 2D34A5B100005790_0000000000000001 (parent A94E99A3000059C4_0000000000000001)
+[T 16:50:57 22416] ==== Candidate to intercept: C:\Program Files\dotnet\dotnet.exe (17972) ====
+[T 16:50:57 22416] Lua: Dotnet subcommand detected: nuget
+[T 16:50:57 22416] Lua: Dotnet subcommand detected: verify
+[T 16:50:57 22416] Lua: Dotnet subcommand detected: C:\Users\pkumara2\AppData\Local\Temp\61b52a22-97d2-410c-b229-dfb5ab604dd6\microsoft.net.workload.emscripten.net7.manifest-7.0.100.msi.x64\7.0.5\microsoft.net.workload.emscripten.net7.manifest-7.0.100.msi.x64.7.0.5.nupkg
+[T 16:50:57 22416] Executing the following tracer actions:
+[T 16:50:57 22416] Tracer actions:
+[T 16:50:57 22416] pre_invocations(0)
+[T 16:50:57 22416] post_invocations(0)
+[T 16:50:57 22416] trace_languages(1): [csharp]
+[T 16:50:57 22416] Allocated ID 1889E7FE00005790_0000000000000001 (parent A94E99A3000059C4_0000000000000001)
+[T 16:50:57 21568] Initializing tracer.
+[T 16:50:57 21568] Initialising tags...
+[T 16:50:57 21568] ID set to 6619B76400005790_0000000000000001 (parent A94E99A3000059C4_0000000000000001)
+[T 16:50:57 22416] ==== Candidate to intercept: C:\Program Files\dotnet\dotnet.exe (19404) ====
+[T 16:50:57 22416] Lua: Dotnet subcommand detected: nuget
+[T 16:50:57 22416] Lua: Dotnet subcommand detected: verify
+[T 16:50:57 22416] Lua: Dotnet subcommand detected: C:\Users\pkumara2\AppData\Local\Temp\61b52a22-97d2-410c-b229-dfb5ab604dd6\microsoft.net.workload.emscripten.net6.manifest-7.0.100.msi.x64\7.0.5\microsoft.net.workload.emscripten.net6.manifest-7.0.100.msi.x64.7.0.5.nupkg
+[T 16:50:57 22416] Executing the following tracer actions:
+[T 16:50:57 22416] Tracer actions:
+[T 16:50:57 22416] pre_invocations(0)
+[T 16:50:57 22416] post_invocations(0)
+[T 16:50:57 22416] trace_languages(1): [csharp]
+[T 16:50:57 23516] Initializing tracer.
+[T 16:50:57 23516] Initialising tags...
+[T 16:50:57 23516] ID set to 65EF7F6800005790_0000000000000001 (parent A94E99A3000059C4_0000000000000001)
+[T 16:50:57 22416] Allocated ID 446F7E6200005790_0000000000000001 (parent A94E99A3000059C4_0000000000000001)
+[T 16:50:57 22416] ==== Candidate to intercept: C:\Program Files\dotnet\dotnet.exe (23044) ====
+[T 16:50:57 22416] Lua: Dotnet subcommand detected: nuget
+[T 16:50:57 22416] Lua: Dotnet subcommand detected: verify
+[T 16:50:57 22416] Lua: Dotnet subcommand detected: C:\Users\pkumara2\AppData\Local\Temp\61b52a22-97d2-410c-b229-dfb5ab604dd6\microsoft.net.sdk.ios.manifest-7.0.100.msi.x64\16.4.7054\microsoft.net.sdk.ios.manifest-7.0.100.msi.x64.16.4.7054.nupkg
+[T 16:50:57 22416] Executing the following tracer actions:
+[T 16:50:57 22416] Tracer actions:
+[T 16:50:57 22416] pre_invocations(0)
+[T 16:50:57 22416] post_invocations(0)
+[T 16:50:57 22416] trace_languages(1): [csharp]
+[T 16:50:57 19776] Initializing tracer.
+[T 16:50:57 19776] Initialising tags...
+[T 16:50:57 19776] ID set to 84AC0A8700005790_0000000000000001 (parent A94E99A3000059C4_0000000000000001)
+[T 16:50:57 22416] Allocated ID 8948927200005790_0000000000000001 (parent A94E99A3000059C4_0000000000000001)
+[T 16:50:57 21952] Initializing tracer.
+[T 16:50:57 21952] Initialising tags...
+[T 16:50:57 21952] ID set to 2727B09F00005790_0000000000000001 (parent A94E99A3000059C4_0000000000000001)
+[T 16:50:57 20412] Initializing tracer.
+[T 16:50:57 20412] Initialising tags...
+[T 16:50:57 20412] ID set to F581471E00005790_0000000000000001 (parent A94E99A3000059C4_0000000000000001)
+[T 16:50:57 22416] ==== Candidate to intercept: C:\Program Files\dotnet\dotnet.exe (22468) ====
+[T 16:50:57 22416] Lua: Dotnet subcommand detected: nuget
+[T 16:50:57 22416] Lua: Dotnet subcommand detected: verify
+[T 16:50:57 22416] Lua: Dotnet subcommand detected: C:\Users\pkumara2\AppData\Local\Temp\61b52a22-97d2-410c-b229-dfb5ab604dd6\microsoft.net.sdk.maccatalyst.manifest-7.0.100.msi.x64\16.4.7054\microsoft.net.sdk.maccatalyst.manifest-7.0.100.msi.x64.16.4.7054.nupkg
+[T 16:50:57 22416] Executing the following tracer actions:
+[T 16:50:57 22416] Tracer actions:
+[T 16:50:57 22416] pre_invocations(0)
+[T 16:50:57 22416] post_invocations(0)
+[T 16:50:57 22416] trace_languages(1): [csharp]
+[T 16:50:57 22416] Allocated ID 8931157100005790_0000000000000001 (parent A94E99A3000059C4_0000000000000001)
+[T 16:50:57 22416] ==== Candidate to intercept: C:\Program Files\dotnet\dotnet.exe (21732) ====
+[T 16:50:57 22416] Lua: Dotnet subcommand detected: nuget
+[T 16:50:57 22416] Lua: Dotnet subcommand detected: verify
+[T 16:50:57 22416] Lua: Dotnet subcommand detected: C:\Users\pkumara2\AppData\Local\Temp\61b52a22-97d2-410c-b229-dfb5ab604dd6\microsoft.net.sdk.tvos.manifest-7.0.100.msi.x64\16.4.7054\microsoft.net.sdk.tvos.manifest-7.0.100.msi.x64.16.4.7054.nupkg
+[T 16:50:57 22416] Executing the following tracer actions:
+[T 16:50:57 22416] Tracer actions:
+[T 16:50:57 22416] pre_invocations(0)
+[T 16:50:57 22416] post_invocations(0)
+[T 16:50:57 22416] trace_languages(1): [csharp]
+[T 16:50:57 17972] Initializing tracer.
+[T 16:50:57 17972] Initialising tags...
+[T 16:50:57 17972] ID set to 2D34A5B100005790_0000000000000001 (parent A94E99A3000059C4_0000000000000001)
+[T 16:50:57 19404] Initializing tracer.
+[T 16:50:57 19404] Initialising tags...
+[T 16:50:57 19404] ID set to 1889E7FE00005790_0000000000000001 (parent A94E99A3000059C4_0000000000000001)
+[T 16:50:57 23044] Initializing tracer.[[T 16:50:57 23044] Initialising tags...
+[T 16:50:57 23044] ID set to 446F7E6200005790_0000000000000001 (parent A94E99A3000059C4_0000000000000001)
+[T 16:50:57 2884] ID set to ADEEA0F400005790_0000000000000001 (parent A94E99A3000059C4_0000000000000001)
+[T 16:50:57 22468] Initializing tracer.
+[T 16:50:57 22468] Initialising tags...
+[T 16:50:57 22468] ID set to 8948927200005790_0000000000000001 (parent A94E99A3000059C4_0000000000000001)
+[T 16:50:58 21732] Initializing tracer.
+[T 16:50:58 21732] Initialising tags...
+[T 16:50:58 21732] ID set to 8931157100005790_0000000000000001 (parent A94E99A3000059C4_0000000000000001)
+[T 16:50:59 23516] Allocated ID 4CBCBFF500005BDC_0000000000000001 (parent 65EF7F6800005790_0000000000000001)
+[T 16:50:59 21568] Allocated ID DBC6F5C200005440_0000000000000001 (parent 6619B76400005790_0000000000000001)
+[T 16:50:59 21568] ==== Candidate to intercept: C:\Program Files\dotnet\dotnet.exe (13768) ====
+[T 16:50:59 21568] Lua: Dotnet subcommand detected: exec
+[T 16:50:59 21568] Lua: Dotnet subcommand detected: c:\program files\dotnet\sdk\7.0.100\NuGet.CommandLine.XPlat.dll
+[T 16:50:59 21568] Lua: Dotnet subcommand detected: verify
+[T 16:50:59 21568] Lua: Dotnet subcommand detected: C:\Users\pkumara2\AppData\Local\Temp\61b52a22-97d2-410c-b229-dfb5ab604dd6\microsoft.net.workload.mono.toolchain.net6.manifest-7.0.100.msi.x64\7.0.5\microsoft.net.workload.mono.toolchain.net6.manifest-7.0.100.msi.x64.7.0.5.nupkg
+[T 16:50:59 21568] Executing the following tracer actions:
+[T 16:50:59 21568] Tracer actions:
+[T 16:50:59 21568] pre_invocations(0)
+[T 16:50:59 21568] post_invocations(0)
+[T 16:50:59 21568] trace_languages(1): [csharp]
+[T 16:50:59 19776] Allocated ID FC504A0C00004D40_0000000000000001 (parent 84AC0A8700005790_0000000000000001)
+[T 16:50:59 23516] ==== Candidate to intercept: C:\Program Files\dotnet\dotnet.exe (12940) ====
+[T 16:50:59 23516] Lua: Dotnet subcommand detected: exec
+[T 16:50:59 23516] Lua: Dotnet subcommand detected: c:\program files\dotnet\sdk\7.0.100\NuGet.CommandLine.XPlat.dll
+[T 16:50:59 23516] Lua: Dotnet subcommand detected: verify
+[T 16:50:59 23516] Lua: Dotnet subcommand detected: C:\Users\pkumara2\AppData\Local\Temp\61b52a22-97d2-410c-b229-dfb5ab604dd6\microsoft.net.workload.mono.toolchain.net7.manifest-7.0.100.msi.x64\7.0.5\microsoft.net.workload.mono.toolchain.net7.manifest-7.0.100.msi.x64.7.0.5.nupkg
+[T 16:50:59 23516] Executing the following tracer actions:
+[T 16:50:59 23516] Tracer actions:
+[T 16:50:59 23516] pre_invocations(0)
+[T 16:50:59 23516] post_invocations(0)
+[T 16:50:59 23516] trace_languages(1): [csharp]
+[T 16:50:59 20412] Allocated ID 227B98E800004FBC_0000000000000001 (parent F581471E00005790_0000000000000001)
+[T 16:50:59 19776] ==== Candidate to intercept: C:\Program Files\dotnet\dotnet.exe (19696) ====
+[T 16:50:59 19776] Lua: Dotnet subcommand detected: exec
+[T 16:50:59 19776] Lua: Dotnet subcommand detected: c:\program files\dotnet\sdk\7.0.100\NuGet.CommandLine.XPlat.dll
+[T 16:50:59 19776] Lua: Dotnet subcommand detected: verify
+[T 16:50:59 19776] Lua: Dotnet subcommand detected: C:\Users\pkumara2\AppData\Local\Temp\61b52a22-97d2-410c-b229-dfb5ab604dd6\microsoft.net.sdk.android.manifest-7.0.100.msi.x64\33.0.46\microsoft.net.sdk.android.manifest-7.0.100.msi.x64.33.0.46.nupkg
+[T 16:50:59 19776] Executing the following tracer actions:
+[T 16:50:59 19776] Tracer actions:
+[T 16:50:59 19776] pre_invocations(0)
+[T 16:50:59 19776] post_invocations(0)
+[T 16:50:59 19776] trace_languages(1): [csharp]
+[T 16:50:59 20412] ==== Candidate to intercept: C:\Program Files\dotnet\dotnet.exe (22820) ====
+[T 16:50:59 20412] Lua: Dotnet subcommand detected: exec
+[T 16:50:59 20412] Lua: Dotnet subcommand detected: c:\program files\dotnet\sdk\7.0.100\NuGet.CommandLine.XPlat.dll
+[T 16:50:59 20412] Lua: Dotnet subcommand detected: verify
+[T 16:50:59 20412] Lua: Dotnet subcommand detected: C:\Users\pkumara2\AppData\Local\Temp\61b52a22-97d2-410c-b229-dfb5ab604dd6\microsoft.net.sdk.maui.manifest-7.0.100.msi.x64\7.0.86\microsoft.net.sdk.maui.manifest-7.0.100.msi.x64.7.0.86.nupkg
+[T 16:50:59 20412] Executing the following tracer actions:
+[T 16:50:59 20412] Tracer actions:
+[T 16:50:59 20412] pre_invocations(0)
+[T 16:50:59 20412] post_invocations(0)
+[T 16:50:59 20412] trace_languages(1): [csharp]
+[T 16:51:00 21952] Allocated ID EE47D77A000055C0_0000000000000001 (parent 2727B09F00005790_0000000000000001)
+[T 16:51:00 19404] Allocated ID D826A5B800004BCC_0000000000000001 (parent 1889E7FE00005790_0000000000000001)
+[T 16:51:00 13768] Initializing tracer.
+[T 16:51:00 13768] Initialising tags...
+[T 16:51:00 13768] ID set to DBC6F5C200005440_0000000000000001 (parent 6619B76400005790_0000000000000001)
+[T 16:51:00 21952] ==== Candidate to intercept: C:\Program Files\dotnet\dotnet.exe (16664) ====
+[T 16:51:00 21952] Lua: Dotnet subcommand detected: exec
+[T 16:51:00 21952] Lua: Dotnet subcommand detected: c:\program files\dotnet\sdk\7.0.100\NuGet.CommandLine.XPlat.dll
+[T 16:51:00 21952] Lua: Dotnet subcommand detected: verify
+[T 16:51:00 21952] Lua: Dotnet subcommand detected: C:\Users\pkumara2\AppData\Local\Temp\61b52a22-97d2-410c-b229-dfb5ab604dd6\microsoft.net.sdk.macos.manifest-7.0.100.msi.x64\13.3.7054\microsoft.net.sdk.macos.manifest-7.0.100.msi.x64.13.3.7054.nupkg
+[T 16:51:00 21952] Executing the following tracer actions:
+[T 16:51:00 21952] Tracer actions:
+[T 16:51:00 21952] pre_invocations(0)
+[T 16:51:00 21952] post_invocations(0)
+[T 16:51:00 21952] trace_languages(1): [csharp]
+[T 16:51:00 17972] Allocated ID D4B960A700004634_0000000000000001 (parent 2D34A5B100005790_0000000000000001)
+[T 16:51:00 19404] ==== Candidate to intercept: C:\Program Files\dotnet\dotnet.exe (11320) ====
+[T 16:51:00 19404] Lua: Dotnet subcommand detected: exec
+[T 16:51:00 19404] Lua: Dotnet subcommand detected: c:\program files\dotnet\sdk\7.0.100\NuGet.CommandLine.XPlat.dll
+[T 16:51:00 19404] Lua: Dotnet subcommand detected: verify
+[T 16:51:00 19404] Lua: Dotnet subcommand detected: C:\Users\pkumara2\AppData\Local\Temp\61b52a22-97d2-410c-b229-dfb5ab604dd6\microsoft.net.workload.emscripten.net6.manifest-7.0.100.msi.x64\7.0.5\microsoft.net.workload.emscripten.net6.manifest-7.0.100.msi.x64.7.0.5.nupkg
+[T 16:51:00 19404] Executing the following tracer actions:
+[T 16:51:00 19404] Tracer actions:
+[T 16:51:00 19404] pre_invocations(0)
+[T 16:51:00 19404] post_invocations(0)
+[T 16:51:00 19404] trace_languages(1): [csharp]
+[T 16:51:00 17972] ==== Candidate to intercept: C:\Program Files\dotnet\dotnet.exe (23192) ====
+[T 16:51:00 17972] Lua: Dotnet subcommand detected: exec
+[T 16:51:00 17972] Lua: Dotnet subcommand detected: c:\program files\dotnet\sdk\7.0.100\NuGet.CommandLine.XPlat.dll
+[T 16:51:00 17972] Lua: Dotnet subcommand detected: verify
+[T 16:51:00 17972] Lua: Dotnet subcommand detected: C:\Users\pkumara2\AppData\Local\Temp\61b52a22-97d2-410c-b229-dfb5ab604dd6\microsoft.net.workload.emscripten.net7.manifest-7.0.100.msi.x64\7.0.5\microsoft.net.workload.emscripten.net7.manifest-7.0.100.msi.x64.7.0.5.nupkg
+[T 16:51:00 17972] Executing the following tracer actions:
+[T 16:51:00 17972] Tracer actions:
+[T 16:51:00 17972] pre_invocations(0)
+[T 16:51:00 17972] post_invocations(0)
+[T 16:51:00 17972] trace_languages(1): [csharp]
+[T 16:51:00 21732] Allocated ID 2F317EA2000054E4_0000000000000001 (parent 8931157100005790_0000000000000001)
+[T 16:51:01 23044] Allocated ID 15B63BDB00005A04_0000000000000001 (parent 446F7E6200005790_0000000000000001)
+[T 16:51:01 22820] Initializing tracer.
+[T 16:51:01 22820] Initialising tags...
+[T 16:51:01 22820] ID set to 227B98E800004FBC_0000000000000001 (parent F581471E00005790_0000000000000001)
+[T 16:51:01 12940] Initializing tracer.
+[T 16:51:01 12940] Initialising tags...
+[T 16:51:01 12940] ID set to 4CBCBFF500005BDC_0000000000000001 (parent 65EF7F6800005790_0000000000000001)
+[T 16:51:01 19696] Initializing tracer.
+[T 16:51:01 19696] Initialising tags...
+[T 16:51:01 19696] ID set to FC504A0C00004D40_0000000000000001 (parent 84AC0A8700005790_0000000000000001)
+[T 16:51:01 22468] Allocated ID CFCFCA0E000057C4_0000000000000001 (parent 8948927200005790_0000000000000001)
+[T 16:51:01 23044] ==== Candidate to intercept: C:\Program Files\dotnet\dotnet.exe (13480) ====
+[T 16:51:01 23044] Lua: Dotnet subcommand detected: exec
+[T 16:51:01 23044] Lua: Dotnet subcommand detected: c:\program files\dotnet\sdk\7.0.100\NuGet.CommandLine.XPlat.dll
+[T 16:51:01 23044] Lua: Dotnet subcommand detected: verify
+[T 16:51:01 23044] Lua: Dotnet subcommand detected: C:\Users\pkumara2\AppData\Local\Temp\61b52a22-97d2-410c-b229-dfb5ab604dd6\microsoft.net.sdk.ios.manifest-7.0.100.msi.x64\16.4.7054\microsoft.net.sdk.ios.manifest-7.0.100.msi.x64.16.4.7054.nupkg
+[T 16:51:01 23044] Executing the following tracer actions:
+[T 16:51:01 23044] Tracer actions:
+[T 16:51:01 23044] pre_invocations(0)
+[T 16:51:01 23044] post_invocations(0)
+[T 16:51:01 23044] trace_languages(1): [csharp]
+[T 16:51:01 21732] ==== Candidate to intercept: C:\Program Files\dotnet\dotnet.exe (21096) ====
+[T 16:51:01 21732] Lua: Dotnet subcommand detected: exec
+[T 16:51:01 21732] Lua: Dotnet subcommand detected: c:\program files\dotnet\sdk\7.0.100\NuGet.CommandLine.XPlat.dll
+[T 16:51:01 21732] Lua: Dotnet subcommand detected: verify
+[T 16:51:01 21732] Lua: Dotnet subcommand detected: C:\Users\pkumara2\AppData\Local\Temp\61b52a22-97d2-410c-b229-dfb5ab604dd6\microsoft.net.sdk.tvos.manifest-7.0.100.msi.x64\16.4.7054\microsoft.net.sdk.tvos.manifest-7.0.100.msi.x64.16.4.7054.nupkg
+[T 16:51:01 21732] Executing the following tracer actions:
+[T 16:51:01 21732] Tracer actions:
+[T 16:51:01 21732] pre_invocations(0)
+[T 16:51:01 21732] post_invocations(0)
+[T 16:51:01 21732] trace_languages(1): [csharp]
+[T 16:51:01 11320] Initializing tracer.
+[T 16:51:01 16664] Initialising tags...
+[T 16:51:01 16664] ID set to EE47D77A000055C0_0000000000000001 (parent 2727B09F00005790_0000000000000001)
+[T 16:51:02 11320] Initialising tags...
+[T 16:51:02 11320] ID set to D826A5B800004BCC_0000000000000001 (parent 1889E7FE00005790_0000000000000001)
+[T 16:51:02 22468] ==== Candidate to intercept: C:\Program Files\dotnet\dotnet.exe (1648) ====
+[T 16:51:02 22468] Lua: Dotnet subcommand detected: exec
+[T 16:51:02 22468] Lua: Dotnet subcommand detected: c:\program files\dotnet\sdk\7.0.100\NuGet.CommandLine.XPlat.dll
+[T 16:51:02 22468] Lua: Dotnet subcommand detected: verify
+[T 16:51:02 22468] Lua: Dotnet subcommand detected: C:\Users\pkumara2\AppData\Local\Temp\61b52a22-97d2-410c-b229-dfb5ab604dd6\microsoft.net.sdk.maccatalyst.manifest-7.0.100.msi.x64\16.4.7054\microsoft.net.sdk.maccatalyst.manifest-7.0.100.msi.x64.16.4.7054.nupkg
+[T 16:51:02 22468] Executing the following tracer actions:
+[T 16:51:02 22468] Tracer actions:
+[T 16:51:02 22468] pre_invocations(0)
+[T 16:51:02 22468] post_invocations(0)
+[T 16:51:02 22468] trace_languages(1): [csharp]
+[T 16:51:02 23192] Initializing tracer.
+[T 16:51:02 23192] Initialising tags...
+[T 16:51:02 23192] ID set to D4B960A700004634_0000000000000001 (parent 2D34A5B100005790_0000000000000001)
+[T 16:51:02 13480] Initializing tracer.
+[T 16:51:02 13480] Initialising tags...
+[T 16:51:02 13480] ID set to 15B63BDB00005A04_0000000000000001 (parent 446F7E6200005790_0000000000000001)
+[T 16:51:03 21096] Initializing tracer.
+[T 16:51:03 21096] Initialising tags...
+[T 16:51:03 21096] ID set to 2F317EA2000054E4_0000000000000001 (parent 8931157100005790_0000000000000001)
+[T 16:51:03 1648] Initializing tracer.
+[T 16:51:03 1648] Initialising tags...
+[T 16:51:03 1648] ID set to CFCFCA0E000057C4_0000000000000001 (parent 8948927200005790_0000000000000001)
+[T 16:51:17 22416] Allocated ID 8FEA041F00005790_0000000000000001 (parent A94E99A3000059C4_0000000000000001)
+[T 16:51:17 22416] ==== Candidate to intercept: C:\Program Files\dotnet\dotnet.exe (20356) ====
+[T 16:51:17 22416] Lua: Dotnet subcommand detected: exec
+[T 16:51:17 22416] Lua: Dotnet subcommand detected: c:\program files\dotnet\sdk\7.0.100\Sdks\Microsoft.NET.Sdk.Razor\targets\..\tools\rzc.dll
+[T 16:51:17 22416] Lua: Dotnet subcommand detected: @C:\Users\pkumara2\AppData\Local\Temp\MSBuildTempPKUMARA2\tmp036252ae56054a18a1179170f689ef60.rsp
+[T 16:51:17 22416] Executing the following tracer actions:
+[T 16:51:17 22416] Tracer actions:
+[T 16:51:17 22416] pre_invocations(0)
+[T 16:51:17 22416] post_invocations(0)
+[T 16:51:17 22416] trace_languages(1): [csharp]
+[T 16:51:17 20356] Initializing tracer.
+[T 16:51:17 20356] Initialising tags...
+[T 16:51:17 20356] ID set to 8FEA041F00005790_0000000000000001 (parent A94E99A3000059C4_0000000000000001)

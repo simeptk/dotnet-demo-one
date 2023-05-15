@@ -1,0 +1,11 @@
+---
+sourceLocationPrefix: C:\ptk-install\codeql-one\dotnet-demo-one
+baselineLinesOfCode: 79
+unicodeNewlines: false
+columnKind: utf16
+primaryLanguage: csharp
+creationMetadata:
+  sha: f6995469e5e2c6d21b9d8d81bd97c17f9c422142
+  cliVersion: 2.13.1
+  creationTime: 2023-05-15T11:20:33.615075600Z
+finalised: true
